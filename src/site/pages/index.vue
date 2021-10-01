@@ -8,7 +8,7 @@
 				<div>
 					<h1>Hi there</h1>
 					<p>
-						It's a Chibisafe self-hosted service hosted by Aru Moon.<br>All files will be purged when the server's disk is full (sorry, I don't have much space).<br>Use it only as a temporary storage :)<br>
+						It's a Chibisafe self-hosted service hosted by Aru Moon. Read <a href="/rules">Rules</a> first.<br>I purge all files when the server's disk is full (I don't have much space).<br>Use it only as a temporary storage :)<br>
 					</p>
 					<p>
 						Chibisafe has fast API, chunked file uploads out of the box, beautiful masonry-style file manager and both individual and album sharing capabilities, this little tool was crafted with the best user experience in mind.<br>
