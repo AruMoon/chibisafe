@@ -17,6 +17,7 @@
 					<a href="https://liberapay.com/arumoon">Liberapay</a>
 				</div>
 				<div class="column is-narrow bottom-up">
+					<a href="/rules">Rules</a>
 					<a href="https://donate.stream/arumoon">Support me</a>
 					<a
 						v-if="loggedIn"
