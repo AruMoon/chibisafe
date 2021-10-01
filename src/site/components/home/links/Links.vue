@@ -1,7 +1,7 @@
 <template>
 	<div class="links">
 		<a
-			href="https://github.com/WeebDev/chibisafe"
+			href="https://github.com/AruMoon/chibisafe"
 			target="_blank"
 			class="link">
 			<header class="bd-footer-star-header">

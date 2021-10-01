@@ -3,7 +3,8 @@
 		v-bar
 		class="scroll-area">
 		<div class="default-body">
-			<div class="background" />
+			<!-- <div class="background" /> -->
+			<video autoplay muted loop id="backgroundVideo"><source src="~/assets/background.mp4" type="video/mp4" /></video>
 			<Navbar :is-white="true" />
 			<nuxt-child
 				id="app"
@@ -78,7 +79,7 @@ html {
 .default-body {
 	align-items: baseline !important;
 	overflow: auto;
-	height: 100vh;
+	// height: 100vh;
 	.background {
 		position: fixed;
 		top: 0;
@@ -98,6 +99,16 @@ html {
 			width: 120%;
 			filter: blur(15px);
 		*/
+	}
+	#backgroundVideo {
+		position: fixed;
+		top: 0;
+		left: 0;
+		min-height: 100%;
+		min-width: 100%;
+		max-width: none;
+		z-index: -1;
+		pointer-events: none;
 	}
 }
 .scroll-area {

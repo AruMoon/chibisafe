@@ -16,6 +16,13 @@ export default async () => {
 		ssr: true,
 		srcDir: 'src/site/',
 		head: {
+			script: [
+				{
+					src: 'https://wth9wb7m4bfp.statuspage.io/embed/script.js',
+					defer: true,
+					body: true,
+				},
+			],
 			title: Util.config.serviceName,
 			titleTemplate: `%s | ${Util.config.serviceName}`,
 			// TODO: Add the directory with pictures for favicon and stuff

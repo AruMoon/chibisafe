@@ -6,12 +6,12 @@
 		<div class="leftSpacer">
 			<div class="mainBlock">
 				<div>
-					<h4>Blazing fast file uploader. For real.</h4>
+					<h1>Hi there</h1>
 					<p>
-						A <strong>modern</strong> and self-hosted file upload service that can handle anything you throw at it.
+						It's a Chibisafe self-hosted service hosted by Aru Moon.<br>All files will be purged when the server's disk is full (sorry, I don't have much space).<br>Use it only as a temporary storage :)<br>
 					</p>
 					<p>
-						With a fast API, chunked file uploads out of the box, beautiful masonry-style file manager and both individual and album sharing capabilities, this little tool was crafted with the best user experience in mind.<br>
+						Chibisafe has fast API, chunked file uploads out of the box, beautiful masonry-style file manager and both individual and album sharing capabilities, this little tool was crafted with the best user experience in mind.<br>
 					</p>
 					<div class="mt4" />
 					<Uploader v-if="config.publicMode || (!config.publicMode && loggedIn)" />

@@ -12,11 +12,12 @@
 					<span>{{ version }}</span>
 				</div>
 				<div class="column is-narrow bottom-up">
-					<a href="https://github.com/weebdev/chibisafe">GitHub</a>
-					<a href="https://patreon.com/pitu">Patreon</a>
-					<a href="https://discord.gg/5g6vgwn">Discord</a>
+					<a href="https://github.com/AruMoon/chibisafe">Chibisafe</a>
+					<a href="https://patreon.com/arumoon">Patreon</a>
+					<a href="https://liberapay.com/arumoon">Liberapay</a>
 				</div>
 				<div class="column is-narrow bottom-up">
+					<a href="https://donate.stream/arumoon">Support me</a>
 					<a
 						v-if="loggedIn"
 						@click="createShareXThing">ShareX Config</a>
